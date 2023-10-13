@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Rhyno Valve Co</title>
+        <link rel="icon" type="image/png" href="/rhyno-icon.png"></link>
       </Head>
       <Header />
       <Component {...pageProps} />
