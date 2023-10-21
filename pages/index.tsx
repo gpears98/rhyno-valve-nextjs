@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.image_div}>
         <div className={styles.welcome}>
           <h1 className={styles.title}>Rhyno Valve Co</h1>
-          <p className={styles.description}>Our purpose is to bridge the gap between the customer and the manufacturer</p>
+          <p className={styles.description}>Bridging the gap between the customer and manufacturer</p>
         </div>
       </div>
       <div className={styles.manufacturers}>
