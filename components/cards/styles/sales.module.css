@@ -1,0 +1,47 @@
+/* Main card container */
+.card {
+    font-family: var(--font-default);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;  /* Rounded corners */
+    background-color: #fff;  /* White background */
+    margin: 1rem;  /* Spacing around the card */
+    width: 18rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  
+  /* Individual sections */
+  .title, .name, .contact {
+    padding: 0.25rem;
+    width: 100%;  /* Take up full width of card */
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    background-color: #f1f1f1;  /* Light gray background */
+    border-top-left-radius: 0.5rem;  /* Rounded corners at the top */
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .name {
+    font-weight: bold;
+    flex-grow: 1;  /* Allow name to take up available space */
+  }
+  
+  
+  .email, .phone {
+    font-size: 0.9rem;  /* Slightly smaller text for email and phone */
+  }
+
+  

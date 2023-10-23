@@ -56,3 +56,23 @@
   padding-bottom: 2rem;
   color: white;
 }
+
+.description::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 1.9rem;
+  left: 0;
+  background-color: red;  /* Underline color */
+  animation: slideIn 3s ease-in-out forwards;  /* Animation name, duration, and type */
+}
+
+@keyframes slideIn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
