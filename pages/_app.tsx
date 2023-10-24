@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Header from '@/components/header/header';
+import Footer from '@/components/footer/footer';
 import { useRef, MutableRefObject } from 'react';
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -15,7 +16,10 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Header placeholderRef={placeholderRef} />
       <div ref={placeholderRef} className="placeholder"></div>
-      <Component {...pageProps} />
+      <div className="contentWrapper">
+        <Component {...pageProps} />
+        <Footer />
+      </div>
     </>
   );
 }

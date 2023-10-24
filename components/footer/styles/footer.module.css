@@ -1,0 +1,46 @@
+.footer {
+    font-family: var(--font-default);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    min-height: 20rem;
+  }
+  
+  .links {
+    grid-column: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10rem;
+  }
+  
+  .office {
+    margin-right: 15rem;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icon {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social {
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-right: 10rem;
+  }
+  
+  .socialIcon {
+    cursor: pointer;
+  }
+  
