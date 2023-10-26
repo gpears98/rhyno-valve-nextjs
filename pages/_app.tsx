@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div ref={placeholderRef} className="placeholder"></div>
       <div className="contentWrapper">
         <Component {...pageProps} />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }
