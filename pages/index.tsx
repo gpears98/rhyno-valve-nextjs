@@ -11,7 +11,9 @@ export default function Home() {
           <p className={styles.description}>Bridging the gap between the customer and manufacturer</p>
         </div>
       </div>
-      <div className={styles.industry}></div>
+      <div className={styles.industry}>
+        <h3>Over 100 years in Oil and Gas industry</h3>
+      </div>
       <div className={styles.manufacturers}>
         
       </div>
