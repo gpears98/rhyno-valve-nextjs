@@ -12,7 +12,19 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.industry}>
-        <h3>Over 100 years in Oil and Gas industry</h3>
+        <div className={styles.industryHeader}>
+          <div className={styles.industryH1}>
+            <h1>With over 100 years in Oil and Gas industry, we are ready to provide innovative solutions
+              that exceed all expectations.
+            </h1>
+          </div>
+          <div className={styles.industryP}>
+            <p>Rhyno Valve Co. is a new company established by people with over 100 years of experience in the oil industry.
+              We aim to serve our customers by providing them with the highest customer service and distributing the highest quality valves.
+              With our partners in the manufacturing space, we can supply our customers with any sized project or endeavor.
+            </p>
+          </div>
+        </div>
       </div>
       <div className={styles.manufacturers}>
         

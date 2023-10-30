@@ -79,5 +79,38 @@
 }
 
 .industry {
+  display: flex;
+  text-align: center;
   position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  max-width: 100%;
+}
+
+.industryHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  width: 75rem;
+}
+
+.industryH1 {
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 55rem;
+  border-bottom: 3px solid red;
+}
+
+.industryP {
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: 70rem;
 }
