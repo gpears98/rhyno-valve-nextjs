@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Manufacturer from '@/components/cards/manufacturer';
 
 export default function Home() {
   return (
@@ -27,10 +28,35 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.manufacturers}>
-        
+        <div className={styles.manufacturerText}>
+          <h1>Our Manufacturers</h1>
+        </div>
+        <div className={styles.cards}>
+          <ul className={styles.cardlist}>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+            <li><Manufacturer title='Testing text' imageURL='/rhyno-icon.png' link='/'/></li>
+          </ul>
+        </div>
       </div>
       <div className={styles.locations}>
-        
       </div>
     </main>
   )
