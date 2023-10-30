@@ -13,14 +13,14 @@ export default function Manufacturer({ imageURL, title, link }: ManufacturerProp
         <Link href={link}>
             <div className={styles.card}>
                 <div className={styles.name}>
-                    <h4>{title}</h4>
+                    <h5>{title}</h5>
                 </div>
                 <div className={styles.image}>
                     <Image
                         src={imageURL}
                         alt='logo'
-                        width={60}
-                        height={60}
+                        width={50}
+                        height={50}
                     />
                 </div>
             </div>

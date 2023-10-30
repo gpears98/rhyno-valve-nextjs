@@ -8,11 +8,11 @@
     box-shadow: 6px 5px 9px -4px rgba(0,0,0,0.1);
     background-color: white;
     border-radius: 0.5rem;
-    border: 1px solid rgb(212, 212, 212);
+    border: 1px solid rgb(233, 233, 233);
 }
 
 .card:hover {
-    border: 2px solid rgb(212, 212, 212);
+    border: 2px solid rgb(233, 233, 233);
     box-shadow: 6px 5px 10px -3px rgba(0,0,0,0.1);
 }
 
@@ -21,5 +21,5 @@
 }
 
 .image {
-    .padding: 0.25rem;
+    padding: 0.25rem;
 }
